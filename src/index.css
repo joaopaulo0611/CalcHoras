@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+body{
+    text-align: center;
+    background-color:#f3a30f;
+    
+}
+h1{
+    font-family: 'Honk', system-ui;
+    font-size: 70px;
+}
+.zeca{
+    border-color: black;
+    border: solid;
+    border-radius: 20px;
+    width: 380px;
+    margin: 0 auto;
+    background-color: #F52C1A;
+    font-family: 'Honk', system-ui;
+    font-size: 25px;
+}
+input{
+    width: 34px;
+    height: 38px;
+    text-align: center;
+    font-size: 25px;
+    border-style: double;
+    border-radius: 10px;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+button{
+    height: 45px;
+    width: 110px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: black;
+    background-color: #F52C1A;
+    font-family: 'Honk', system-ui;
+    font-size: 20px;
+}
+button:hover{
+  background-color: #e25649;
+}
