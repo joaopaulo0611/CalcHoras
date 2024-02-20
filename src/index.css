@@ -52,3 +52,6 @@ button{
 button:hover{
   background-color: #e25649;
 }
+.r{
+    font-family: 'Honk', system-ui;
+}
